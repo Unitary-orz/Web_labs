@@ -1,0 +1,37 @@
+version: '3'
+services:
+  sqli-labs:
+    image: acgpiano/sqli-labs
+    ports:
+      - "8100:80"
+
+  dvwa:
+    image: citizenstig/dvwa
+    ports:
+      - "8101:80"
+
+  upload-labs:
+    image: c0ny1/upload-labs
+    ports:
+      - "8102:80"
+
+  xss-challenge:
+    image: youyouorz/xss-challenge
+    ports:
+      - "8103:80"
+
+  XSSed:
+    image: c0ny1/xssed
+    ports:
+      - "8104:80"
+
+  ssrf-lab:
+    image: youyouorz/ssrf-vulnerable-lab
+    ports:
+      - "8105:80"  
+
+  pikachu:
+    image: amanpunj123/pikachu-server
+    ports:
+      - "8106:80" 
+      
