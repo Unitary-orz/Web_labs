@@ -16,7 +16,7 @@ services:
       - "8102:80"
 
   xss-challenge:
-    image: youyouorz/xss-challenge
+    image: youyouorz/xss_challenge
     ports:
       - "8103:80"
 
